@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Initialize MAUI Project",
+    "body": "Create new MAUI solution. Copy starter code into /src. Verify it builds & runs on emulator.",
+    "labels": [
+      "setup"
+    ],
+    "milestone": "Prototype v0.1"
+  },
+  {
+    "title": "Install NuGet Dependencies",
+    "body": "Add packages: CommunityToolkit.Mvvm, sqlite-net-pcl, Microsoft.Maui.Controls.Maps",
+    "labels": [
+      "setup"
+    ],
+    "milestone": "Prototype v0.1"
+  },
+  {
+    "title": "Setup AppShell Navigation",
+    "body": "Add tabs: Breweries, Notes, Events, Map. Register detail routes.",
+    "labels": [
+      "setup"
+    ],
+    "milestone": "Prototype v0.1"
+  },
+  {
+    "title": "Create Brewery Model & Service",
+    "body": "Define Brewery.cs model. Add BreweryService with JSON seed.",
+    "labels": [
+      "brewery"
+    ],
+    "milestone": "Prototype v0.1"
+  },
+  {
+    "title": "Brewery List Page",
+    "body": "Show breweries in CollectionView. Add SearchBar (filter by name/city).",
+    "labels": [
+      "brewery",
+      "ui"
+    ],
+    "milestone": "Prototype v0.1"
+  },
+  {
+    "title": "Brewery Detail Page",
+    "body": "Display address, phone, website. Add 'Open in Maps' button.",
+    "labels": [
+      "brewery",
+      "ui"
+    ],
+    "milestone": "Prototype v0.1"
+  },
+  {
+    "title": "API Integration (Open Brewery DB)",
+    "body": "Replace JSON with API fetch. Add refresh button.",
+    "labels": [
+      "brewery",
+      "api"
+    ],
+    "milestone": "Beta v0.3"
+  },
+  {
+    "title": "Create BeerNote Model & DB",
+    "body": "Define BeerNote.cs. Setup SQLite NotesDb.",
+    "labels": [
+      "notes"
+    ],
+    "milestone": "Prototype v0.2"
+  },
+  {
+    "title": "Notes Page",
+    "body": "List saved notes. Add new note form. Delete note option.",
+    "labels": [
+      "notes",
+      "ui"
+    ],
+    "milestone": "Prototype v0.2"
+  },
+  {
+    "title": "Create BrewEvent Model & DB",
+    "body": "Define BrewEvent.cs. Setup SQLite EventsDb with sample seed.",
+    "labels": [
+      "events"
+    ],
+    "milestone": "Prototype v0.2"
+  },
+  {
+    "title": "Event List Page",
+    "body": "Show upcoming events. Add filter by category. Add search bar.",
+    "labels": [
+      "events",
+      "ui"
+    ],
+    "milestone": "Prototype v0.2"
+  },
+  {
+    "title": "Add/Edit Event Page",
+    "body": "Form for title, description, date/time, venue. Save to DB.",
+    "labels": [
+      "events",
+      "ui"
+    ],
+    "milestone": "Prototype v0.2"
+  },
+  {
+    "title": "Event Detail Page",
+    "body": "Show event details. 'Open in Maps' button. 'Add to Calendar (.ics)' export.",
+    "labels": [
+      "events",
+      "ui"
+    ],
+    "milestone": "Prototype v0.2"
+  },
+  {
+    "title": "Enable MAUI Maps",
+    "body": "Add UseMauiMaps() in MauiProgram.cs. Confirm location permission prompts.",
+    "labels": [
+      "maps"
+    ],
+    "milestone": "Beta v0.3"
+  },
+  {
+    "title": "Brewery Pins",
+    "body": "Display sample breweries on map.",
+    "labels": [
+      "maps"
+    ],
+    "milestone": "Beta v0.3"
+  },
+  {
+    "title": "Event Pins",
+    "body": "Overlay event locations with labels.",
+    "labels": [
+      "maps"
+    ],
+    "milestone": "Beta v0.3"
+  },
+  {
+    "title": "UI Theme & Branding",
+    "body": "Add app icon + splash screen. Apply fonts & colors.",
+    "labels": [
+      "ui",
+      "branding"
+    ],
+    "milestone": "Release v1.0"
+  },
+  {
+    "title": "Age Gate (21+)",
+    "body": "Add age confirmation on first launch. Save preference in SecureStorage.",
+    "labels": [
+      "ui",
+      "security"
+    ],
+    "milestone": "Release v1.0"
+  },
+  {
+    "title": "Performance Profiling",
+    "body": "Log startup times. Test with 500+ sample events. Optimize SQLite queries.",
+    "labels": [
+      "performance"
+    ],
+    "milestone": "Release v1.0"
+  },
+  {
+    "title": "README + Screenshots",
+    "body": "Add screenshots to docs/screenshots/. Update README with images.",
+    "labels": [
+      "docs"
+    ],
+    "milestone": "Release v1.0"
+  }
+]
