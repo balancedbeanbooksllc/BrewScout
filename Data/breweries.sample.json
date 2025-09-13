@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "1",
+    "Name": "Sunshine Brewing Co.",
+    "City": "Tampa",
+    "State": "FL",
+    "Country": "USA",
+    "Street": "123 Hop Ln",
+    "Latitude": 27.9506,
+    "Longitude": -82.4572,
+    "Phone": "813-555-1234",
+    "WebsiteUrl": "https://example.com"
+  },
+  {
+    "Id": "2",
+    "Name": "Gulf Coast Ales",
+    "City": "St. Petersburg",
+    "State": "FL",
+    "Country": "USA",
+    "Street": "456 Malt Ave",
+    "Latitude": 27.7676,
+    "Longitude": -82.6403
+  }
+]

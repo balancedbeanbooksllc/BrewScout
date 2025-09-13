@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrewScout.Views.TastingNotesPage"
+             Title="Notes">
+  <Grid RowDefinitions="Auto,*" Padding="16">
+    <Button Grid.Row="0" Text="Add Note" Clicked="Add_Clicked" />
+    <CollectionView Grid.Row="1" x:Name="List" SelectionMode="None" Margin="0,8,0,0">
+      <CollectionView.ItemTemplate>
+        <DataTemplate>
+          <Frame Padding="12" Margin="0,6" HasShadow="True">
+            <VerticalStackLayout>
+              <Label Text="{Binding BeerName}" FontAttributes="Bold"/>
+              <Label Text="{Binding Style}" FontSize="12"/>
+              <Label Text="{Binding Notes}" FontSize="12"/>
+            </VerticalStackLayout>
+          </Frame>
+        </DataTemplate>
+      </CollectionView.ItemTemplate>
+    </CollectionView>
+  </Grid>
+</ContentPage>

@@ -1,0 +1,19 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrewScout.Views.EditEventPage"
+             Title="Add / Edit Event">
+  <ScrollView>
+    <VerticalStackLayout Padding="16" Spacing="10">
+      <Entry Placeholder="Title" x:Name="TitleEntry" />
+      <Editor Placeholder="Description" AutoSize="TextChanges" x:Name="DescEditor" />
+      <DatePicker x:Name="DatePick" />
+      <TimePicker x:Name="TimePick" />
+      <Entry Placeholder="Venue (or Brewery)" x:Name="VenueEntry" />
+      <Entry Placeholder="City" x:Name="CityEntry" />
+      <Picker Title="Category" x:Name="CategoryPicker" />
+      <HorizontalStackLayout>
+        <Button Text="Save" Clicked="Save_Clicked" />
+      </HorizontalStackLayout>
+    </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>
